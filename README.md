@@ -28,10 +28,12 @@ MxGcX-spcHo.mp4 -1
 
 # Image classifiers on this data:
 CLASSIFIER 1: 	PROBLEM / NO PROBLEM
+
 	ENH: 1.THE WHOLE VIDEOS WE HAVE FROM 0:00 ARE OF 'PROBLEM'  THE WHOLE VIDEOS WE HAVE FROM -1 ARE OF 'NO PROBLEM'
 	resnet 18: 0.988 accuracy on validation set
 	
 CLASSIFIER 2:
+
 	PROBLEM / NO PROBLEM 10 seconds ahead.
 
 # Text classifiers:
