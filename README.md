@@ -1,6 +1,7 @@
 # arcelormittal
 
 
+# Data
 ## Getting the data
 ### Youtube queries to get data (max 50 videos):
 1. steel factory accident
@@ -23,3 +24,33 @@ MxGcX-spcHo.mp4 -1
 3. none: no accident occurs, random footage
 4. 0:00: accident has already occured
 5. many occur
+
+
+
+
+
+
+
+
+# IMAGE CLASSIFIERS ON THIS DATA:
+CLASSIFIER 1:
+	PROBLEM / NO PROBLEM
+	FOR THIS: ALL FRAMES WE HAVE RIGHT NOW
+	PLUS: THE WHOLE VIDEOS WE HAVE FROM 0:00 ARE OF 'PROBLEM'
+	PLUS: THE WHOLE VIDEOS WE HAVE FROM -1 ARE OF 'NO PROBLEM'
+	
+	THIS IS: TRANSFER LEARNING CLASSIFIER
+
+CLASSIFIER 2:
+	PROBLEM IN N FRAMES/ NO PROBLEM
+	DATA: SAME AS ABOVE
+	BUT ALSO SEQUENCES
+
+Me/Nozomi/Irzam, but maybe no hardware unless jupyter notebook
+
+# CROSS MODAL MATCHING?
+The biggest problem is how to match the seq 1 to seq 2
+	Well, if we could match the individual components to each other
+	then it becomes only a search problem
+
+	the data structure you want is a kind of tree
