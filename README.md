@@ -26,24 +26,16 @@ MxGcX-spcHo.mp4 -1
 5. many occur
 
 
-
-
-
-
-
-
-# IMAGE CLASSIFIERS ON THIS DATA:
+# Image classifiers on this data:
 CLASSIFIER 1: 	PROBLEM / NO PROBLEM
 	ENH: 1.THE WHOLE VIDEOS WE HAVE FROM 0:00 ARE OF 'PROBLEM'  THE WHOLE VIDEOS WE HAVE FROM -1 ARE OF 'NO PROBLEM'
-	resnet 18: 0.988 accuracy on validation set.
+	resnet 18: 0.988 accuracy on validation set
 	
 CLASSIFIER 2:
-	PROBLEM IN N FRAMES/ NO PROBLEM
-	DATA: SAME AS ABOVE
-	BUT ALSO SEQUENCES
+	PROBLEM / NO PROBLEM 10 seconds ahead.
 
-Me/Nozomi/Irzam, but maybe no hardware unless jupyter notebook
-
+# Text classifiers:
+- Currently show and tell applied on every frame.
 # HOW TO USE THE PROVIDED TEXTS?
 - We could can get multimodal embeddings e.g. with  https://github.com/linxd5/VSE_Pytorch Then all we would have to do to match embeddings to scenarios, is for every frame to apply this model, and find the closest safety protocol.
 
