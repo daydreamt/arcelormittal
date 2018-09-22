@@ -45,7 +45,7 @@ CLASSIFIER 2:
 
 - The best way to solve this problem, is to align frames to sentences, like in machine translation
 
-- then, we can match frames to situations
+- then, we can find for every frame the closest scenario steps (k-d tree?)
 
 - and detect *any* deviation from standard protocol.
 
