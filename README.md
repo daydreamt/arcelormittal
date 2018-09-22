@@ -44,9 +44,12 @@ CLASSIFIER 2:
 
 Me/Nozomi/Irzam, but maybe no hardware unless jupyter notebook
 
-# CROSS MODAL MATCHING?
-The biggest problem is how to match the seq 1 to seq 2
+# HOW TO USE THE PROVIDED TEXTS?
+-We can get multimodal embeddings e.g. with  https://github.com/linxd5/VSE_Pytorch
 
-	https://github.com/linxd5/VSE_Pytorch
+- We have currently difficulty extracting the instructions from the documents nicely
+
+- The best way to solve this problem, is to align frames to sentences, a bit like in machine translation
 
 	Now all we have to do, for every bad video, to apply this model, find the closest sentence, and then see what is the closest safety paragraph
+
