@@ -15,6 +15,7 @@ MxGcX-spcHo.mp4 -1
 
 
 1. The moment of accident: e.g. 00:42
-2. -1: no accident occurs
-3. 0:00: accident has already occured
-4. many 
+2. -1: no accident occurs, normal operation
+3. none: no accident occurs, random footage
+4. 0:00: accident has already occured
+5. many occur
