@@ -33,14 +33,10 @@ MxGcX-spcHo.mp4 -1
 
 
 # IMAGE CLASSIFIERS ON THIS DATA:
-CLASSIFIER 1:
-	PROBLEM / NO PROBLEM
-	FOR THIS: ALL FRAMES WE HAVE RIGHT NOW
-	PLUS: THE WHOLE VIDEOS WE HAVE FROM 0:00 ARE OF 'PROBLEM'
-	PLUS: THE WHOLE VIDEOS WE HAVE FROM -1 ARE OF 'NO PROBLEM'
+CLASSIFIER 1: 	PROBLEM / NO PROBLEM
+	ENH: 1.THE WHOLE VIDEOS WE HAVE FROM 0:00 ARE OF 'PROBLEM'  THE WHOLE VIDEOS WE HAVE FROM -1 ARE OF 'NO PROBLEM'
+	resnet 18: 0.988 accuracy on validation set.
 	
-	THIS IS: TRANSFER LEARNING CLASSIFIER
-
 CLASSIFIER 2:
 	PROBLEM IN N FRAMES/ NO PROBLEM
 	DATA: SAME AS ABOVE
@@ -50,7 +46,7 @@ Me/Nozomi/Irzam, but maybe no hardware unless jupyter notebook
 
 # CROSS MODAL MATCHING?
 The biggest problem is how to match the seq 1 to seq 2
-	Well, if we could match the individual components to each other
-	then it becomes only a search problem
 
-	the data structure you want is a kind of tree
+	https://github.com/linxd5/VSE_Pytorch
+
+	Now all we have to do, for every bad video, to apply this model, find the closest sentence, and then see what is the closest safety paragraph
