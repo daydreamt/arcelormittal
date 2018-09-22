@@ -45,7 +45,7 @@ CLASSIFIER 2:
 Me/Nozomi/Irzam, but maybe no hardware unless jupyter notebook
 
 # HOW TO USE THE PROVIDED TEXTS?
--We could can get multimodal embeddings e.g. with  https://github.com/linxd5/VSE_Pytorch Then all we would have to do to match embeddings to scenarios, is for every frame to apply this model, and find the closest safety protocol.
+- We could can get multimodal embeddings e.g. with  https://github.com/linxd5/VSE_Pytorch Then all we would have to do to match embeddings to scenarios, is for every frame to apply this model, and find the closest safety protocol.
 
 - We have currently difficulty extracting the instructions from the documents nicely
 
