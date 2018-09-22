@@ -45,11 +45,14 @@ CLASSIFIER 2:
 Me/Nozomi/Irzam, but maybe no hardware unless jupyter notebook
 
 # HOW TO USE THE PROVIDED TEXTS?
--We can get multimodal embeddings e.g. with  https://github.com/linxd5/VSE_Pytorch
+-We could can get multimodal embeddings e.g. with  https://github.com/linxd5/VSE_Pytorch Then all we would have to do to match embeddings to scenarios, is for every frame to apply this model, and find the closest safety protocol.
 
 - We have currently difficulty extracting the instructions from the documents nicely
 
-- The best way to solve this problem, is to align frames to sentences, a bit like in machine translation
+- The best way to solve this problem, is to align frames to sentences, like in machine translation
 
-	Now all we have to do, for every bad video, to apply this model, find the closest sentence, and then see what is the closest safety paragraph
+- then, we can match frames to situations
+
+- and detect *any* deviation from standard protocol.
+
 
