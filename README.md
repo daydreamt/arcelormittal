@@ -5,7 +5,7 @@
 ### Youtube queries to get data (max 50 videos):
 1. steel factory accident
 2. steel mill accident
-3. casting line accident
+3. casting line accident # Also has some fishing videos, and Mr Bean at the doctor
 
 ## Labeling:
 $ head accident_times.txt
