@@ -3,10 +3,10 @@
 
 # Data
 ## Getting the data
-### Youtube queries to get data (max 50 videos):
+### Youtube queries to get data (max of 50 videos):
 1. steel factory accident
 2. steel mill accident
-3. casting line accident # Also has some fishing videos, and Mr Bean at the doctor
+3. casting line accident # Also has fishing videos, and Mr Bean at the doctor
 4. hot strip mill accident #10
 5. continuous annealing line accident #10
 6. jet vapor deposition accident #10
