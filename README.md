@@ -38,6 +38,13 @@ CLASSIFIER 2:
 
 # Text classifiers:
 - Currently show and tell applied on every frame.
+
+- we also have word embeddings from the documents
+
+- obviously we also have the embeddings from the images
+
+- not matching currently
+
 # HOW TO USE THE PROVIDED TEXTS?
 - We could can get multimodal embeddings e.g. with  https://github.com/linxd5/VSE_Pytorch Then all we would have to do to match embeddings to scenarios, is for every frame to apply this model, and find the closest safety protocol.
 
