@@ -1,4 +1,6 @@
-This code formed most of our submission to the ArcelorMittal hackathon held in Zaventem, Belgium https://challenge.arcelormittal.com/ on the 22nd of September 2018.
+This code is my contribution to our submission to the ArcelorMittal hackathon held in Zaventem, Belgium https://challenge.arcelormittal.com/ on the 22nd of September 2018.
+
+You can see the presentation [here](SuperVisor.pdf)
 
 
 # Data
