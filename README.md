@@ -1,4 +1,4 @@
-# arcelormittal
+This code formed most of our submission to the ArcelorMittal hackathon held in Zaventem, Belgium https://challenge.arcelormittal.com/ on the 22nd of September 2018.
 
 
 # Data
